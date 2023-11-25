@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Navbar with Font Awesome Icon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left-side">
+
+            <h1>Food</h1>
+
+        </div>
+
+        <div>
+            <div class="right-side">
+
+                <ul class="nav-list">
+                    <div class="search-container">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <form class="form">
+                        <label for="food">filter by:</label>
+                        <br>
+                        <select name="food" id="food">
+                            <option value="a">โปรโมชั่น</option>
+                            <option value="b">ของทานเล่น</option>
+                            <option value="c">เซ็ต</option>
+                            <option value="d">ดงบุริ</option>
+                            <option value="e">เบนโตะ</option>
+                            <option value="f">ราเม็ง</option>
+                            <option value="g">เครื่องเคียง</option>
+                            <option value="h">เครื่องดื่ม</option>
+                            <option value="i">ของหวาน</option>
+                            <option value="j">บริการจัดเลี้ยง</option>
+                        </select>
+                    </form>
+
+                    <form class="form">
+                        <label for="food">sort by:</label>
+                        <br>
+
+                        <select name="food" id="food">
+                            <option value="a">ล่าสุด</option>
+                            <option value="b">แนะนำ</option>
+                            <option value="c">ยอดนิยม</option>
+
+                        </select>
+                    </form>
+
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <main class="main">
+        <div class="card">
+            <img src="food1.jpg" alt="Food">
+            <div class="container">
+                <h4><b>อุนางิดงบุริ</b></h4>
+                <p>฿ 395</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="food2.jpg" alt="Food">
+            <div class="container">
+                <h4><b>แซลมอนทรงเครื่องดงบุริ</b></h4>
+                <p>฿ 225</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="food3.jpg" alt="Food">
+            <div class="container">
+                <h4><b>ปลาแพนกาเซียสดอร์รี่ทรงเครื่องดงบุริ</b></h4>
+                <p>฿ 179</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="food4.jpg" alt="Food">
+            <div class="container">
+                <h4><b>หมูชาชูดงบุริ</b></h4>
+                <p>฿ 179</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="food5.jpg" alt="Food">
+            <div class="container">
+                <h4><b>สไปซี่บูตะดงบุริ</b></h4>
+                <p>฿ 179</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="food6.jpg" alt="Food">
+            <div class="container">
+                <h4><b>ข้าวราดหน้าไก่ทอดราดซอสนัมบัง</b></h4>
+                <p>฿ 219</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="food7.jpg" alt="Food">
+            <div class="container">
+                <h4><b>ข้าวหน้าเนื้อ</b></h4>
+                <p>฿ 219</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="food8.jpg" alt="Food">
+            <div class="container">
+                <h4><b>ข้าวหน้าเนื้อผัดเผ็ดซอสญี่ปุ่น</b></h4>
+                <p>฿ 229</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
